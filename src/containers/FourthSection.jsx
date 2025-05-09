@@ -46,7 +46,7 @@ const FourthSection = () => {
     };
 
     return (
-        <Box flex={1} mt={{ xs:25, sm:25, md:15, lg:15}}
+        <Box flex={1} pt={{ xs:25, sm:25, md:25, lg:25}} pb={20}
             sx={{
                 backgroundImage: `url(${trianglesImage})`,
                 backgroundSize: "cover",
