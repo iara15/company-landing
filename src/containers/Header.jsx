@@ -4,7 +4,7 @@ import LaunchButton from "../components/Buttons/LaunchButton";
 
 const Header = () => {
   return (
-    <Box flex={1} p={{ xs: 0, md: 5 }}
+    <Box flex={1} p={{ xs: 0, md: 5 }} height={"80vh"}
       sx={{
         backgroundImage: `url(${companyBuildingImage})`,
         backgroundSize: "cover",
@@ -13,7 +13,7 @@ const Header = () => {
       }}>
       <Grid container>
         <Grid item xs={12} sm={12} md={12} lg={6}>
-          <Box p={8}>
+          <Box p={8} pt={15}>
             <Stack spacing={4} color={"white"} sx={{ textAlign: { xs: "center", sm: "center", md: "center", lg: "left" } }}>
               <h1>Lorem ipsum dolor sit amet</h1>
               <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
